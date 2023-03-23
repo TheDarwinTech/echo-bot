@@ -47,8 +47,9 @@ After installation finishes run `node register.js` to deploy slash commands and 
 
 `Auto Moderation` : An Auto Mod system which checks all of  your server messages and send a log for your Admins if a message content complies with OpenAI's usage policies with **Text-Moderation-004** (moderation model is free to use and you can config it as much as you want)
 ## 📸 Screenshots
-![Ask](../echo-bot/screenshots/01.png)
-![imagine](../echo-bot/screenshots/02.png)
-![Translate](../echo-bot/screenshots/03.png)
+![Ask](https://github.com/TheDarwinTech/echo-bot/blob/main/screenshots/01.png?raw=true)
+![imagine](https://github.com/TheDarwinTech/echo-bot/blob/main/screenshots/02.png?raw=true)
+![Translate](https://github.com/TheDarwinTech/echo-bot/blob/main/screenshots/03.png?raw=true)
+![Ping](https://github.com/TheDarwinTech/echo-bot/blob/main/screenshots/04.png?raw=true)
 #
 Feito com ❤️ e JavaScript, Não se esqueça de ⭐
