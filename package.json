@@ -10,10 +10,10 @@
     "start": "node index.js"
   },
   "name": "echo-bot",
-  "description": "Chat GPT Discord Bot",
-  "version": "2.0.2",
+  "description": "A smart way to automate",
+  "version": "1.0.2",
   "main": "index.js",
-  "repository": "https://github.com/ivandcarvalho04/echo-bot",
-  "author": "iTz Arshia",
+  "repository": "https://github.com/codebase04/echo-bot",
+  "author": "@echo_off",
   "license": "MIT"
 }

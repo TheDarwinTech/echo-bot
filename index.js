@@ -1,7 +1,7 @@
 /*
-    Author: Ivan De Carvalho
-    Github: https://github.com/ivandcarvalho04/echo-bot
-    Current Version: 2.0.2
+    Author: Codebase_
+    Github: https://github.com/codebase04/echo-bot
+    Current Version: 1.2.0
     DiscordJs Version: 14.8.0
     OpenAI Version: 3.2.1
 */
@@ -20,6 +20,14 @@ const client = new Discord.Client({
     Discord.GatewayIntentBits.MessageContent
   ]
 });
+
+console.log(chalk.bold.magentaBright('     _______        __          '));
+console.log(chalk.bold.magentaBright('    |    ___|.----.|  |--.-----.'));
+console.log(chalk.bold.magentaBright('    |    ___||  __||     |  _  |'));
+console.log(chalk.bold.magentaBright('    |_______||____||__|__|_____|  v1.2'));
+console.log(chalk.bold.magentaBright('                            '));
+console.log(chalk.bold.blueBright('[-] Program developed by Codebase_ [-]'));
+console.log(chalk.bold.magentaBright(' '));
 
 // Event Handler
 console.log(chalk.bold.yellowBright('Loading Events'));

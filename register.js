@@ -17,6 +17,15 @@ const rest = new Discord.REST({ version: '10' }).setToken(config.Token);
 
     try {
 
+        console.log(chalk.bold.magentaBright(`                   __         __              `));
+        console.log(chalk.bold.magentaBright(`.----.-----.-----.|__|.-----.|  |_.-----.----.`));
+        console.log(chalk.bold.magentaBright(`|   _|  -__|  _  ||  ||__ --||   _|  -__|   _|`));
+        console.log(chalk.bold.magentaBright(`|__| |_____|___  ||__||_____||____|_____|__| `));
+        console.log(chalk.bold.magentaBright(`           |_____|                            v1.2`));
+        console.log(chalk.bold.magentaBright(` `));
+        console.log(chalk.bold.blueBright(`    [-] Program developed by Codebase_ [-]`));
+        console.log(chalk.bold.magentaBright(` `));
+
         console.log(chalk.bold.yellowBright(`Started refreshing ${commands.length} application (/) commands.`));
 
         const data = await rest.put(
@@ -25,7 +34,7 @@ const rest = new Discord.REST({ version: '10' }).setToken(config.Token);
         );
 
         console.log(chalk.bold.greenBright(`Successfully reloaded ${data.length} application (/) commands.`));
-        console.log(chalk.bold.redBright(`Note: if you didn't see slash commands in your server maybe your bot don't have "applicatiton.commands" scope try to invite it using this link\nhttps://discord.com/api/oauth2/authorize?client_id=${config.ClientID}&permissions=0&scope=bot%20applications.commands`))
+        console.log(chalk.bold.redBright(`Link to the invitation: https://discord.com/api/oauth2/authorize?client_id=${config.ClientID}&scope=bot`))
 
     } catch (error) {
         console.error(chalk.bold.redBright(error));
